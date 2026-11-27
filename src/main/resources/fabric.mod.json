@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tuercasuelta",
+  "version": "${version}",
+  "name": "Tuercasuelta",
+  "description": "Minijuego cooperativo con traicion: construyan un robot gigante... mientras un saboteador lo desarma en secreto.",
+  "authors": [
+    "Tuercasuelta Team"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tuercasuelta.TuercaSuelta"
+    ],
+    "client": [
+      "com.tuercasuelta.client.TuercaSueltaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
